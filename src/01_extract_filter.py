@@ -20,7 +20,7 @@ def main():
     input_path = project_root / "data" / "raw" / "PISA_2022_STU_QQQ.SAV"
     output_dir = project_root / "data" / "processed"
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_csv = output_dir / "pisa_usa_age15to16_ict_filtered.csv"
+    output_csv = output_dir / "pisa_arg_age15to16_ict_filtered.csv"
 
     if not input_path.exists():
         print(f"[ERROR] No existe el archivo: {input_path}")
@@ -87,9 +87,9 @@ def main():
     print(f"[INFO] Cargado inicial: {df.shape[0]:,} filas x {df.shape[1]:,} columnas")
 
     # =========================
-    # Filtros: USA + ICTQ
+    # Filtros: ARG + ICTQ
     # =========================
-    df = df[df["CNT"] == "USA"].copy()
+    df = df[df["CNT"] == "ARG"].copy()
     df = df[df["Option_ICTQ"] == 1].copy()
 
     # =========================
@@ -97,7 +97,7 @@ def main():
     # =========================
     df["AGE"] = pd.to_numeric(df["AGE"], errors="coerce")
 
-    print("\n===== EDADES ANTES DEL FILTRO (USA + ICTQ) =====")
+    print("\n===== EDADES ANTES DEL FILTRO (ARG + ICTQ) =====")
     print("Rango:", df["AGE"].min(), "a", df["AGE"].max())
     print("================================================\n")
 
