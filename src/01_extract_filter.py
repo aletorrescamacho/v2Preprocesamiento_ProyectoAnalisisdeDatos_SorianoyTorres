@@ -1,4 +1,5 @@
 # src/01_extract_filter.py
+# revisado, CONFIRMADO!!! TIENE TODAS LAS VARIABLES
 
 import sys
 from pathlib import Path
