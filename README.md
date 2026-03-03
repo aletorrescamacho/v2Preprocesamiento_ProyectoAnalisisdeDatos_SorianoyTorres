@@ -1,5 +1,5 @@
 # Proyecto Final – Análisis de Datos  
-## Uso recreativo digital y desempeño académico en PISA 2022 (Estados Unidos)
+## Uso recreativo digital y desempeño académico en PISA 2022 (España)
 
 ### Autores
 Luis Soriano  
@@ -9,11 +9,11 @@ Alessandra Torres
 
 ## Descripción del Proyecto
 
-Este proyecto analiza la relación entre el uso recreativo de recursos digitales y el desempeño académico general en estudiantes estadounidenses de 15 y 16 años evaluados en PISA 2022.
+Este proyecto analiza la relación entre el uso recreativo de recursos digitales y el desempeño académico general en estudiantes españoles de 15 y 16 años evaluados en PISA 2022.
 
 La pregunta de investigación es:
 
-> ¿En estudiantes estadounidenses de 15 y 16 años evaluados en PISA 2022, el uso recreativo frecuente de recursos digitales se asocia con un promedio más bajo en el desempeño académico general, medido a través del puntaje combinado de matemáticas, lectura y ciencias, en comparación con aquellos con menor tiempo de uso?
+> ¿En estudiantes españoles de 15 y 16 años evaluados en PISA 2022, el uso recreativo frecuente de recursos digitales se asocia con un promedio más bajo en el desempeño académico general, medido a través del puntaje combinado de matemáticas, lectura y ciencias, en comparación con aquellos con menor tiempo de uso?
 
 El análisis se enmarca en el estudio del impacto del uso digital recreativo sobre el rendimiento académico.
 
@@ -37,7 +37,7 @@ El preprocesamiento inicial se realizó en Python (VSCode) con el objetivo de re
 
 Se aplicaron los siguientes criterios de filtrado:
 
-- `CNT = USA` → Selección de estudiantes estadounidenses.
+- `CNT = ESP` → Selección de estudiantes españoles.
 - `Option_ICTQ = 1` → Garantiza que al estudiante se le aplicó el módulo de conductas digitales.
 - Edad entre 15 y 16 años → Calculada a partir de `AGE`.
 
@@ -147,7 +147,7 @@ ProyectoAnalisisDeDatos_SorianoTorres/
 │
 ├── data/
 │   ├── raw/               # Archivo original .SAV (no incluido en el repositorio)
-│   └── processed/         # Dataset filtrado (USA, 15–16 años, ICT aplicado)
+│   └── processed/         # Dataset filtrado (ESP, 15–16 años, ICT aplicado)
 │
 ├── src/
 │   └── 01_extract_filter.py   # Script de selección de columnas y filtrado
