@@ -39,6 +39,7 @@ Se aplicaron los siguientes criterios de filtrado:
 
 - `CNT = ARG` → Selección de estudiantes argentinos.
 - `Option_ICTQ = 1` → Garantiza que al estudiante se le aplicó el módulo de conductas digitales.
+- Se excluyeron los registros que no tenían respuesta en ninguna de las 14 variables de las secciones IC177 e IC178 del cuestionario de conductas digitales.
 - Edad entre 15 y 16 años → Calculada a partir de `AGE`.
 
 Estas variables fueron utilizadas para filtrar la muestra y posteriormente eliminadas del dataset final cuando ya no eran necesarias.
