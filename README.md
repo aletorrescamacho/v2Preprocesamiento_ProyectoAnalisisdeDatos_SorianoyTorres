@@ -68,53 +68,7 @@ Posteriormente, se construyó un puntaje académico general como el promedio com
 
 ---
 
-### 3. Horas Generales de Uso Digital
-
-Variable base:
-- `ST326`
-
-Subcategorías:
-
-- `ST326Q01JA` – Uso para aprendizaje en la escuela  
-- `ST326Q02JA` – Uso para aprendizaje antes y después de la escuela  
-- `ST326Q03JA` – Uso para aprendizaje en fines de semana  
-- `ST326Q04JA` – Uso recreativo en la escuela  
-- `ST326Q05JA` – Uso recreativo antes y después de la escuela  
-- `ST326Q06JA` – Uso recreativo en fines de semana  
-
-Estas variables permiten distinguir entre uso académico y uso recreativo en términos de horas.
-
----
-
-### 4. Uso de Recursos Digitales para Aprendizaje DENTRO de la Escuela (Frecuencia)
-
-Bloque `IC170` (medido en frecuencia, no en horas):
-
-- `IC170Q01JA` – Computadora portátil o de escritorio  
-- `IC170Q02JA` – Smartphone  
-- `IC170Q03JA` – Tablet  
-- `IC170Q04JA` – Acceso a Internet  
-- `IC170Q05JA` – Portal escolar  
-- `IC170Q06JA` – Software o aplicaciones educativas  
-- `IC170Q07JA` – Plataforma de gestión del aprendizaje  
-
----
-
-### 5. Uso de Recursos Digitales para Aprendizaje FUERA de la Escuela (Frecuencia)
-
-Bloque `IC171` (medido en frecuencia, no en horas):
-
-- `IC171Q01JA` – Computadora portátil o de escritorio  
-- `IC171Q02JA` – Smartphone  
-- `IC171Q03JA` – Tablet  
-- `IC171Q04JA` – Acceso a Internet  
-- `IC171Q05JA` – Portal escolar  
-- `IC171Q06JA` – Software o aplicaciones educativas  
-- `IC171Q07JA` – Plataforma de gestión del aprendizaje  
-
----
-
-### 6. Uso de Recursos Digitales para Actividades Recreativas ENTRE SEMANA (Horas)
+### 3. Uso de Recursos Digitales para Actividades Recreativas ENTRE SEMANA (Horas)
 
 Bloque `IC177` (medido en horas):
 
@@ -128,7 +82,7 @@ Bloque `IC177` (medido en horas):
 
 ---
 
-### 7. Uso de Recursos Digitales para Actividades Recreativas FINES DE SEMANA (Horas)
+### 4. Uso de Recursos Digitales para Actividades Recreativas FINES DE SEMANA (Horas)
 
 Bloque `IC178` (medido en horas):
 
@@ -170,7 +124,7 @@ El dataset filtrado se generará en `data/processed/`.
 
 El análisis completo se encuentra en el siguiente notebook de Google Colab:
 
-[Agregar aquí el enlace al notebook]
+https://colab.research.google.com/drive/1sEwLajSE5JSwh22egYIzalhyiDZfinOk#scrollTo=yekO6jYO5mSm
 
 ---
 
@@ -179,7 +133,7 @@ El análisis completo se encuentra en el siguiente notebook de Google Colab:
 - Los puntajes académicos se basan en valores plausibles (estimaciones estadísticas).
 - El estudio identifica asociaciones, no relaciones causales.
 - Parte del uso digital es información autodeclarada por los estudiantes.
-- El archivo original en formato .SAV correspondiente a la base completa de PISA 2022 no se incluye en el repositorio debido a limitaciones de tamaño en la plataforma (aproximadamente 2 GB). Sin embargo, el repositorio contiene el script reproducible que permite generar el dataset filtrado utilizado en el análisis, siempre que el archivo original sea descargado previamente desde la fuente oficial de la OCDE y colocado en la ruta indicada dentro del proyecto.
+- El archivo original en formato .SAV correspondiente a la base completa de PISA 2022 no se incluye en el repositorio debido a limitaciones de tamaño en la plataforma (aproximadamente 2 GB). Sin embargo, el repositorio contiene el script reproducible que permite generar el dataset filtrado utilizado en el análisis, siempre que el archivo original sea descargado previamente desde la fuente oficial de la OECD y colocado en la ruta indicada dentro del proyecto.
 
 ---
 
