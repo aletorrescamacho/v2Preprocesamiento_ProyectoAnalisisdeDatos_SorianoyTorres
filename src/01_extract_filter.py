@@ -41,22 +41,6 @@ def main():
     cols_needed += [f"PV{i}READ" for i in range(1, 11)]
     cols_needed += [f"PV{i}SCIE" for i in range(1, 11)]
 
-    # Horas generales de uso digital (ST326 subpreguntas)
-    cols_needed += [
-        "ST326Q01JA",
-        "ST326Q02JA",
-        "ST326Q03JA",
-        "ST326Q04JA",
-        "ST326Q05JA",
-        "ST326Q06JA",
-    ]
-
-    # IC170 (aprendizaje dentro de la escuela, frecuencia) 1..7
-    cols_needed += [f"IC170Q0{i}JA" for i in range(1, 8)]
-
-    # IC171 (aprendizaje fuera de la escuela, frecuencia) 1..7  ✅ corregido
-    cols_needed += [f"IC171Q0{i}JA" for i in range(1, 7)]
-
     # IC177 (recreativo entre semana, horas) 1..7  ✅ añadido
     cols_needed += [f"IC177Q0{i}JA" for i in range(1, 8)]
 
