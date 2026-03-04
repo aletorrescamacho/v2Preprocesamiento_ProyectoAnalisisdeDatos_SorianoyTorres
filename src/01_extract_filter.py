@@ -92,6 +92,20 @@ def main():
     print("Registros:", f"{df.shape[0]:,}")
     print("======================================================\n")
 
+    # =====================================================
+    # NUEVO FILTRO: eliminar filas donde TODAS las IC* son NaN
+    # =====================================================
+    ic_cols = [c for c in df.columns if c.startswith("IC")]
+
+    before = df.shape[0]
+    df = df.dropna(subset=ic_cols, how="all")
+    after = df.shape[0]
+
+    print("===== FILTRO CUESTIONARIO ICT =====")
+    print(f"Filas eliminadas (IC todas NaN): {before - after:,}")
+    print(f"Filas restantes: {after:,}")
+    print("===================================\n")
+
     # Eliminar columnas usadas solo para filtrar
     df.drop(columns=["CNT", "Option_ICTQ"], inplace=True)
 
