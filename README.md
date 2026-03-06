@@ -27,6 +27,14 @@ El análisis se enmarca en el estudio del impacto del uso digital recreativo sob
 El archivo original en formato `.SAV` no se incluye en este repositorio debido a su tamaño.  
 Debe descargarse desde el sitio oficial de la OECD.
 
+## **Nota sobre la Integración de Fuentes**
+Es importante destacar que, aunque los datos se extrajeron de un único archivo consolidado por la OCDE, la investigación integra dos fuentes de información distintas diseñadas de manera independiente:
+
+1. Cuestionario General del Estudiante: De donde se obtienen los resultados de desempeño académico (Valores Plausibles) y datos demográficos.
+2. Cuestionario de Familiaridad con las TIC (ICT Questionnaire): Un módulo opcional que profundiza en las conductas digitales.
+
+De acuerdo con lo consultado y aprobado por la profesora, el uso de este dataset cumple con el requisito de integración de múltiples fuentes, ya que el archivo oficial de PISA 2022 actúa como el punto de unión de dos encuestas con objetivos y estructuras diferentes. El proceso de limpieza realizado en este proyecto se encargó de extraer y vincular estas dos dimensiones para permitir el análisis de la relación entre el entorno digital y el rendimiento escolar.
+
 ---
 
 ## Preprocesamiento de Datos
