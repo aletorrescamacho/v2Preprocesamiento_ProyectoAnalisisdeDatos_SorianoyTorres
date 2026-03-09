@@ -28,7 +28,7 @@ El archivo original en formato `.SAV` no se incluye en este repositorio debido a
 Debe descargarse desde el sitio oficial de la OECD.
 
 ## **Nota sobre la Integración de Fuentes**
-Es importante destacar que, aunque los datos se extrajeron de un único archivo consolidado por la OCDE, la investigación integra dos fuentes de información distintas diseñadas de manera independiente:
+Es importante destacar que, aunque los datos se extrajeron de un único archivo consolidado por la OECD, la investigación integra dos fuentes de información distintas diseñadas de manera independiente:
 
 1. Cuestionario General del Estudiante: De donde se obtienen los resultados de desempeño académico (Valores Plausibles) y datos demográficos.
 2. Cuestionario de Familiaridad con las TIC (ICT Questionnaire): Un módulo opcional que profundiza en las conductas digitales.
