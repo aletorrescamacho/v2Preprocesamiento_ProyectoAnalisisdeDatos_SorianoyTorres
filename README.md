@@ -13,7 +13,7 @@ Este proyecto analiza la relación entre el uso recreativo de recursos digitales
 
 La pregunta de investigación es:
 
-> ¿En estudiantes argentinos de 15 y 16 años evaluados en PISA 2022, el uso recreativo frecuente de recursos digitales se asocia con un promedio más bajo en el desempeño académico general, medido a través del puntaje combinado de matemáticas, lectura y ciencias, en comparación con aquellos con menor tiempo de uso?
+> En estudiantes argentinos de 15 y 16 años evaluados en PISA 2022, ¿los estudiantes que reportan un uso recreativo alto de recursos digitales (evaluados mediante un puntaje de intensidad) presentan un promedio más bajo en el desempeño académico general, medido a través del puntaje combinado de matemáticas, lectura y ciencias, en comparación con aquellos que reportan menor frecuencia de uso?
 
 El análisis se enmarca en el estudio del impacto del uso digital recreativo sobre el rendimiento académico.
 
@@ -67,19 +67,18 @@ Estas variables fueron utilizadas para filtrar la muestra y posteriormente elimi
 
 PISA no proporciona un único puntaje directo por estudiante. En su lugar, utiliza diez valores plausibles (PV), que son estimaciones del nivel académico del estudiante basadas en modelos estadísticos aplicados a sus respuestas.
 
-Se calcularon promedios para cada área:
+Se utilizaron estas columnas:
 
-- Matemáticas: promedio entre `PV1MATH` – `PV10MATH`
-- Lectura: promedio entre `PV1READ` – `PV10READ`
-- Ciencias: promedio entre `PV1SCIE` – `PV10SCIE`
+- Matemáticas: `PV1MATH` – `PV10MATH`
+- Lectura: `PV1READ` – `PV10READ`
+- Ciencias: `PV1SCIE` – `PV10SCIE`
 
-Posteriormente, se construyó un puntaje académico general como el promedio combinado de las tres áreas.
 
 ---
 
-### 3. Uso de Recursos Digitales para Actividades Recreativas ENTRE SEMANA (Horas)
+### 3. Uso de Recursos Digitales para Actividades Recreativas ENTRE SEMANA 
 
-Bloque `IC177` (medido en horas):
+Bloque `IC177`:
 
 - `IC177Q01JA` – Play video-game  
 - `IC177Q02JA` – Browse social networks  
@@ -91,9 +90,9 @@ Bloque `IC177` (medido en horas):
 
 ---
 
-### 4. Uso de Recursos Digitales para Actividades Recreativas FINES DE SEMANA (Horas)
+### 4. Uso de Recursos Digitales para Actividades Recreativas FINES DE SEMANA 
 
-Bloque `IC178` (medido en horas):
+Bloque `IC178`:
 
 - `IC178Q01JA` – Play video-game  
 - `IC178Q02JA` – Browse social networks  
